@@ -23,8 +23,6 @@ Para implementar este challenge de forma moderna, utilizaremos las siguientes de
 - mongoose: una biblioteca ODM (Object Document Mapper) que facilita la interacción con bases de datos MongoDB y permite definir modelos de datos.
 - dotenv: una biblioteca para cargar variables de entorno desde un archivo .env, que te permitirá ocultar información sensible (como claves de API o credenciales de bases de datos) de tu código fuente.
 - morgan: un middleware que registra las solicitudes HTTP en la consola, lo que te permitirá depurar tu aplicación.
-- cors: un middleware que habilita CORS (Cross-Origin Resource Sharing), lo que permite que otros dominios puedan acceder a tu API.
-- helmet: un middleware que agrega encabezados de seguridad a las respuestas HTTP, lo que ayuda a proteger tu aplicación contra ataques malintencionados.
 - jest: Es un framework de pruebas desarrollado por Facebook que se utiliza para probar aplicaciones basadas en JavaScript. 
 
 Emplearemos un patro de diseño MVC con el siguiente manejo de carpetas: 
